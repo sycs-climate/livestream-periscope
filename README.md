@@ -6,10 +6,10 @@ Any number of iframes which link to live feeds can be added to this interface an
 
 ### `createFrame()`
 
-Call `createFrame()` with a live feed URL as its only argument to create an iFrame with the live feed.
+Call `createFrame()` with a live feed URL as its only argument to create an iframe with the live feed.
 e.g. `createFrame('http://10.35.212.45');`
 
 ### `deleteFrame()`
 
-Call `deleteFrame()` with a live feed URL as its only argument to delete all iFrames with the URL as their source.
+Call `deleteFrame()` with a live feed URL as its only argument to delete all iframes with the URL as their source.
 e.g. `deleteFrame('http://10.35.212.45');`
